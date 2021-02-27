@@ -1,0 +1,12 @@
+@media (max-width: 632px ) {
+    nav{
+        position: static;
+    }
+    header{
+        padding: 200px 0 200px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    
+}

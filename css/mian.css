@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 300vh;
+}
+nav{
+    text-align: center;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+}
+nav a{
+    color: rgb(1, 11, 19);
+    text-decoration: none;
+    margin: 0 30px;
+    display:inline-block;
+    padding: 20px 40px;
+    transition: all 0.7s;
+}
+nav a:hover{
+    background: #815649;
+    transition: all 0.7s;
+}
+header{
+    padding: 555px 0 200px;
+    text-align: center;
+    background-image: url(../img/Фон-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #c2806b;
+}
+header p{
+    font-size: 30px;
+    color: #ffffff;
+}
+header a{
+    background: #815649;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 25px;
+    transition: all 0.5s;
+}
+header a:hover{
+    background: #ffffff;
+    color: #815649;
+    transition: all 0.5s;
+}
+.about{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+h2{
+    text-align: center;
+}
+.about img{
+    width: 300px;
+    float: right;
+}
+.team{
+    text-align: center;
+    margin: 100px 0 0;
+}
+.card{
+    display: inline-block;
+    width: 20%;
+    box-shadow: 0 0 5px gray;
+    margin: 20px 10px;
+    padding: 10px;
+    text-align: left;
+    min-width: 300px;
+    box-sizing: border-box;
+    
+}
+.card img{
+    width: 100%;
+    height: 550px;
+    
+}
+.profession{
+    color: gray;
+}
+.card a{
+    color:#ffffff;
+    background: #815649;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 7px 0;
+    transition: all 0.5s;
+}
+.card a:hover{
+    color: #815649;
+    background: #ffffff;
+}
+.tariff{
+    text-align: center;
+    background: #8156499f;
+}
+section{
+    padding: 40px 0; 
+}
+ul{
+    display: inline-block ;
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+    width: 25%;
+    vertical-align: middle;
+    min-width: 300px;
+}
+.title{
+    background: black;
+    color: cornsilk;
+    padding: 30px 0;
+}
+.title-pro{
+    background: #362722;
+    color: cornsilk;
+    padding: 40px 0;
+}
+li{
+    background: whitesmoke;
+    padding: 16px 0;
+    border-bottom: 1px solid;
+    border-color: gray;
+}
+.link{
+    background: rgba(43, 17, 17, 0.781);
+}
+.link a{
+    color: rgba(43, 17, 17, 0.781);
+    text-decoration: none;
+    background: darksalmon;
+    padding: 10px 15px;
+    transition: all 0.5s;
+}
+.link a:hover{
+    color: darksalmon;
+    background: rgba(43, 17, 17, 0.781);
+}
+ul{
+    box-shadow: 5px 5px 3px 0;
+}
+.pay{
+    padding: 16px 5px;
+}
+.feedback{
+    text-align: center;
+    background: #9c655650;
+}
+.feedback__info{
+    text-align: left;
+    margin: 20px 0 20px 5%;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    padding:0 30px ;
+}
+.adres{
+    background-image: url(../img/Адрес);
+}
+.phone{
+    background-image: url(../img/Телефон);
+}
+.mail{
+    background-image: url(../img/Почта);
+}
+input{
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    outline: none;
+    border: 1px solid #9c6556;
+}
+input:focus{
+    box-shadow:0 0 10px #9c6556;
+}
+button{
+    background:darksalmon;
+    color: rgba(43, 17, 17, 0.781);
+    padding: 10px 16px;
+    border: 1px darksalmon solid;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+button:hover{
+    color: darksalmon;
+    background: rgba(43, 17, 17, 0.781);
+}
+footer{
+    text-align: center;
+    padding: 20px 0;
+    background: #362722;
+
+}
